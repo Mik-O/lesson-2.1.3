@@ -41,6 +41,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func startButtonPressed() {
+        
         if startButton.currentTitle == "START" {
             startButton.setTitle("NEXT", for: .normal)
         }
